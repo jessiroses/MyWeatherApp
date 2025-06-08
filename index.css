@@ -37,6 +37,10 @@ header {
   color: rgb(83, 90, 90);
 }
 
+.search-form-button:hover {
+  cursor: pointer;
+}
+
 .weather-app-city {
   margin: 0;
   font-size: 38px;
