@@ -91,6 +91,7 @@ header {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   display: flex;
   justify-content: space-around;
+  margin: 30px 0 20px;
 }
 
 .weather-forecast-date {
@@ -118,7 +119,6 @@ header {
 
 .weather-forecast-temperature {
   padding: 0 8px;
-  margin-bottom: 30px;
 }
 
 footer {
