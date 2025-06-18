@@ -91,6 +91,7 @@ header {
   justify-content: space-around;
   margin: 30px 0 20px;
   flex-wrap: wrap;
+  row-gap: 10px;
 }
 
 .weather-forecast-date {
