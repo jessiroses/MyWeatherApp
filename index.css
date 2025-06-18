@@ -90,6 +90,7 @@ header {
   display: flex;
   justify-content: space-around;
   margin: 30px 0 20px;
+  flex-wrap: wrap;
 }
 
 .weather-forecast-date {
@@ -141,4 +142,11 @@ a {
 
 main {
   padding: 30px 0;
+}
+
+@media (max-width: 500px) {
+  .weather-forecast-day {
+    flex: 1 1 45%;
+    max-width: 100px;
+  }
 }
